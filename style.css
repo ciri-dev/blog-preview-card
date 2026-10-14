@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  padding: clamp(1rem, 5vw, 1.5rem);
   font-family: var(--font-family);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-500);
@@ -60,7 +60,7 @@ main {
     font-size: 0.875rem;
     font-weight: var(--font-weight-800);
     line-height: 1.25;
-    margin-bottom: 0;
+    margin-block-end: 0;
   }
 
   h1 {
@@ -84,8 +84,8 @@ main {
     gap: 0.5rem;
 
     img {
-      width: 32px;
-      height: 32px;
+      width: 2rem;
+      height: 2rem;
     }
 
     p {
